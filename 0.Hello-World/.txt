@@ -1,0 +1,5 @@
+Install Node Js 
+npm install -g typescript
+
+Run Command tsc helloWorld.ts
+Run Command node helloWorld.js
