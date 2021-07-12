@@ -1,0 +1,18 @@
+Variable in TypeScript
+    The type syntax for declaring a variable in TypeScript is to include a colon (:) after the variable name, followed by its type.
+
+var Declarations
+    - var 
+        Declaring a variable in JavaScript has always traditionally been done with the var keyword.
+
+let Declarations
+    - let 
+        By now you’ve figured out that var has some problems, which is precisely why let statements were introduced. 
+        Apart from the keyword used, let statements are written the same way var statements are.
+
+const Declarations
+    - const
+        const declarations are another way of declaring variables.
+
+Remark 
+    - can'n Declarations Variable Duplicate in project 
