@@ -1,0 +1,48 @@
+DataType in TypeScript
+    - Everyday Types
+        - The primitives Type
+            - string
+                - Another fundamental part of creating programs in JavaScript for webpages and servers alike is working with textual data. 
+                - As in other languages, we use the type string to refer to these textual datatypes.
+                - Just like JavaScript, TypeScript also uses double quotes (") or single quotes (') to surround string data.
+            - number
+                - As in JavaScript, all numbers in TypeScript are either floating point values or BigIntegers.
+                - These floating point numbers get the type number, while BigIntegers get the type bigint. 
+                - In addition to hexadecimal and decimal literals, TypeScript also supports binary and octal literals introduced in ECMAScript 2015.
+            - boolean
+                - The most basic datatype is the simple true/false value, which JavaScript and TypeScript call a boolean value.
+        - array
+            - TypeScript, like JavaScript, allows you to work with arrays of values. 
+            - Array types can be written in one of two ways. In the first, you use the type of the elements followed by [] to denote an array of that element type
+        - any
+            - In some situations, not all type information is available or its declaration would take an inappropriate amount of effort. 
+            - These may occur for values from code that has been written without TypeScript or a 3rd party library. 
+            - In these cases, we might want to opt-out of type checking. 
+            - To do so, we label these values with the any type
+    - Other Types
+        - Tuple 
+            - Tuple types allow you to express an array with a fixed number of elements whose types are known, but need not be the same.
+        - Enum
+            - A helpful addition to the standard set of datatypes from JavaScript is the enum. 
+            - As in languages like C#, an enum is a way of giving more friendly names to sets of numeric values.
+        - Unknown
+            - We may need to describe the type of variables that we do not know when we are writing an application.
+            - These values may come from dynamic content – e.g. from the user – or we may want to intentionally accept all values in our API. 
+            -  In these cases, we want to provide a type that tells the compiler and future readers that this variable could be anything, so we give it the unknown type.
+        - Void
+            - void is a little like the opposite of any: the absence of having any type at all. 
+            - You may commonly see this as the return type of functions that do not return a value
+        - Null
+            - In TypeScript, both undefined and null actually have their types named undefined and null respectively. 
+            - Much like void, they’re not extremely useful on their own
+        - Undefined
+            - In TypeScript, both undefined and null actually have their types named undefined and null respectively. 
+            - Much like void, they’re not extremely useful on their own
+        - Never
+        - Object
+            - bject is a type that represents the non-primitive type, i.e. 
+            - anything that is not number, string, boolean, bigint, symbol, null, or undefined.
+
+
+
+
